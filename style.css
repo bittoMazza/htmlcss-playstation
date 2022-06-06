@@ -1,0 +1,45 @@
+:root{
+    --main-color:#0b5ed7;
+}
+
+.sony_logo{
+    height: 20px;
+}
+
+.top_header{
+    text-align: right;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.jumbo_section{
+    height: 45rem;
+    margin-top: 120px;
+    background-image:url(./img/jumbo-bg.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+.it_takes_two{
+    height: 40rem;
+    background-image:url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.ms_border{
+    border-radius: 20px;
+}
+
+.ms_logo_section{
+    width: 250px;
+}
+
+.ms_darkb_bg{
+    background-color: #161c3b;
+}
+
+.ms_bb_hover:hover{
+    border-bottom: 2px solid var(--main-color);
+}
