@@ -36,6 +36,14 @@
     width: 250px;
 }
 
+.ms_s_logo{
+    width: 150px;
+}
+
+.ms_bg_main{
+    background-color: var(--main-color);
+}
+
 .ms_darkb_bg{
     background-color: #161c3b;
 }
@@ -43,3 +51,25 @@
 .ms_bb_hover:hover{
     border-bottom: 2px solid var(--main-color);
 }
+
+footer ul li{
+    list-style: none;
+    padding: 2px 0;
+}
+
+footer ul li a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.social{
+    padding:50px 0 100px 0;
+}
+
