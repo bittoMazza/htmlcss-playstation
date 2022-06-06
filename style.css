@@ -6,28 +6,6 @@
     height: 20px;
 }
 
-.top_header{
-    text-align: right;
-    padding: 10px 0;
-    background-color: black;
-}
-
-.jumbo_section{
-    height: 45rem;
-    margin-top: 120px;
-    background-image:url(./img/jumbo-bg.png);
-    background-position:center;
-    background-size: cover;
-
-}
-
-.it_takes_two{
-    height: 40rem;
-    background-image:url(./img/it-takes-two-hero-banner-desktop.jpg);
-    background-position:center;
-    background-size: cover;
-}
-
 .ms_border{
     border-radius: 20px;
 }
@@ -46,6 +24,33 @@
 
 .ms_darkb_bg{
     background-color: #161c3b;
+}
+
+
+.top_header{
+    text-align: right;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.jumbo_section{
+    height: 45rem;
+    margin-top: 120px;
+    background-image:url(./img/jumbo-bg.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+.jumbo_content_container{
+    padding-top: 400px;
+}
+
+.it_takes_two{
+    height: 40rem;
+    background-image:url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 .ms_bb_hover:hover{
@@ -73,3 +78,10 @@ a:hover{
     padding:50px 0 100px 0;
 }
 
+.ms_up{
+    transition: 0.4s;
+}
+
+.ms_up:hover{
+    margin-top: -10px;
+}
