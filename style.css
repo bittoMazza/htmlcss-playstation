@@ -51,6 +51,7 @@ a{
 
 form li{
     list-style: none;
+    padding: 10px;
 }
 
 .top_header{
@@ -117,15 +118,6 @@ footer ul li a{
     box-shadow: 0 0 0px 2px var(--main-color);
 }
 
-.dropdown-menu{
-    width: 100%;
-    border: none;
-}
-
-.dropdown-menu-size{
-    width: 450px;
-    margin: 0 auto;
-}
 
 
 /* BUTTON BORDERS */
@@ -147,3 +139,32 @@ footer ul li a{
 }
 
 
+ul{
+    list-style:none;
+}
+
+ul li{
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    font-size:1rem;
+}
+
+
+.ms-dropdown-content{
+    display: none;   
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+}
+
+.drop_width{
+    max-width: 450px;
+}
+
+
+.ms-dropdown:hover .ms-dropdown-content{
+    display: block
+  } 
