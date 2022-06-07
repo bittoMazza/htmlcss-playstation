@@ -1,9 +1,19 @@
 :root{
     --main-color:#0b5ed7;
+    --light-grey:#bebcbb;
+}
+
+.bg_light_grey{
+    background-color: #bebcbb;
+}
+
+.bg_lighter_grey{
+    background-color: #eee;
 }
 
 .sony_logo{
     height: 20px;
+    margin-right: 20px;
 }
 
 .ms_border{
@@ -18,6 +28,10 @@
     width: 150px;
 }
 
+.nav_ps_img{
+    width: 50px;
+}
+
 .ms_bg_main{
     background-color: var(--main-color);
 }
@@ -26,6 +40,9 @@
     background-color: #161c3b;
 }
 
+form li{
+    list-style: none;
+}
 
 .top_header{
     text-align: right;
@@ -53,8 +70,9 @@
     background-size: cover;
 }
 
+
 .ms_bb_hover:hover{
-    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 0 0px var(--main-color);
 }
 
 footer ul li{
@@ -68,10 +86,20 @@ footer ul li a{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
-a:hover{
+/* a:hover{
     color: white;
+}
+ */
+
+.pre_hover_img{
+    opacity: 0.6;
+}
+
+.pre_hover_img:hover{
+    opacity: 1;
 }
 
 .social{
@@ -85,3 +113,41 @@ a:hover{
 .ms_up:hover{
     margin-top: -10px;
 }
+
+.ms_bd_main{
+    box-shadow: 0 0 0px 2px var(--main-color);
+}
+
+.dropdown-menu{
+    width: 100%;
+    border: none;
+}
+
+.dropdown-menu-size{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.hover_main:hover{
+    color: var(--main-color);
+}
+
+/* BUTTON BORDERS */
+
+.my-border{
+    box-shadow: 0 0 0px 2px unset;
+}
+
+.my_border_black:hover{
+    box-shadow: 0 0 0px 2px black;
+}
+
+.my_border_red:hover{
+    box-shadow: 0 0 0px 2px red; ;
+}
+
+.my_border_white:hover{
+    box-shadow: 0 0 0px 2px white ;
+}
+
+
