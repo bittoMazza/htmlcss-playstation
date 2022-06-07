@@ -3,12 +3,29 @@
     --light-grey:#bebcbb;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .bg_light_grey{
     background-color: #bebcbb;
 }
 
 .bg_lighter_grey{
     background-color: #eee;
+}
+
+.ms_bg_main{
+    background-color: var(--main-color);
+}
+
+.ms_darkb_bg{
+    background-color: #161c3b;
+}
+
+.hover_main:hover{
+    color: var(--main-color);
 }
 
 .sony_logo{
@@ -30,14 +47,6 @@
 
 .nav_ps_img{
     width: 50px;
-}
-
-.ms_bg_main{
-    background-color: var(--main-color);
-}
-
-.ms_darkb_bg{
-    background-color: #161c3b;
 }
 
 form li{
@@ -84,16 +93,6 @@ footer ul li a{
     color: white;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-/* a:hover{
-    color: white;
-}
- */
-
 .pre_hover_img{
     opacity: 0.6;
 }
@@ -128,9 +127,6 @@ a{
     margin: 0 auto;
 }
 
-.hover_main:hover{
-    color: var(--main-color);
-}
 
 /* BUTTON BORDERS */
 
