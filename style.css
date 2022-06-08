@@ -151,20 +151,26 @@ ul li{
 }
 
 
+
 .ms-dropdown-content{
-    display: none;   
-    position: absolute;
-    width: 100%;
-    top: 60px;
-    left: 0;
-    z-index: 1;
-}
+        display: none;   
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+    }
 
 .drop_width{
     max-width: 450px;
 }
 
-
+@media all and (max-width:992px) {
+    .ms-dropdown-content{
+        position: static;
+        top: 0;
+    }
+}
 .ms-dropdown:hover .ms-dropdown-content{
     display: block
   } 
