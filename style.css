@@ -32,13 +32,19 @@ a{
     color: var(--main-color);
 }
 
+.ms_border{
+    border-radius: 20px;
+}
+
+.ms_bd_main{
+    box-shadow: 0 0 0px 3px var(--main-color);
+}
+
+/* Inizio Dimensione Loghi */
+
 .sony_logo{
     height: 20px;
     margin-right: 20px;
-}
-
-.ms_border{
-    border-radius: 20px;
 }
 
 .ms_logo_section{
@@ -49,9 +55,31 @@ a{
     width: 150px;
 }
 
+/* Fine Dimensione Loghi */
+
+.top_header{
+    text-align: right;
+    padding: 10px 0;
+    background-color: black;
+}
+
+/* Inizio Stile Nav */
+
 .nav_ps_img{
     width: 50px;
 }
+
+ul{
+    list-style:none;
+}
+
+nav ul li{
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    font-size:1rem;
+}
+
 
 form li{
     list-style: none;
@@ -88,6 +116,8 @@ display: inline-block;
 display: none;
 }
 
+/* Fine Stile Nav */
+
 .ms_up{
     transition: 0.4s;
     margin-bottom: 10px;
@@ -97,16 +127,11 @@ display: none;
     margin-top: -10px;
 }
 
-
 .hover_ps_card:hover{
 box-shadow: 0 0 7px 2px var(--light-grey);
 }
 
-.top_header{
-    text-align: right;
-    padding: 10px 0;
-    background-color: black;
-}
+/* Inizio Stile Jumbo */
 
 .jumbo_section{
     height: 45rem;
@@ -121,25 +146,12 @@ box-shadow: 0 0 7px 2px var(--light-grey);
     padding-top: 400px;
 }
 
-.it_takes_two{
-    height: 40rem;
-    background-image:url(./img/it-takes-two-hero-banner-desktop.jpg);
-    background-position:center;
-    background-size: cover;
-}
+/* Fine Stile Jumbo */
 
+/* Inizio Stile Sezione Prodotti PS5 */
 
 .ms_bb_hover:hover{
     box-shadow: 0 2px 0 0px var(--main-color);
-}
-
-footer ul li{
-    list-style: none;
-    padding: 2px 0;
-}
-
-footer ul li a{
-    color: white;
 }
 
 .pre_hover_img{
@@ -150,13 +162,21 @@ footer ul li a{
     opacity: 1;
 }
 
+/* Fine Stile Sezione Prodotti PS5 */
+
+
+.it_takes_two{
+    height: 40rem;
+    background-image:url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+
 .social{
     padding:50px 0 100px 0;
 }
 
-.ms_bd_main{
-    box-shadow: 0 0 0px 3px var(--main-color);
-}
 
 
 
@@ -179,18 +199,10 @@ footer ul li a{
 }
 
 
-ul{
-    list-style:none;
+footer ul li{
+    list-style: none;
+    padding: 2px 0;
 }
-
-nav ul li{
-    display: inline-block;
-    height: 100%;
-    padding: 10px;
-    font-size:1rem;
-}
-
-
 
 @media all and (max-width:992px) {
     .ms-dropdown-content{
