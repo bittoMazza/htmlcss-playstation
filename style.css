@@ -73,48 +73,21 @@ ul{
     list-style:none;
 }
 
-nav ul li{
-    display: inline-block;
-    height: 100%;
-    padding: 10px;
-    font-size:1rem;
-}
-
-
-form li{
-    list-style: none;
-    padding: 10px;
-}
-
-.ms-dropdown-content{
-    display: none;   
-    position: absolute;
-    width: 100%;
-    top: 60px;
-    left: 0;
-    z-index: 1;
-}
-
 .drop_width{
-max-width: 450px;
+max-width: 400px;
 }
 
-
-.ms-dropdown:hover .ms-dropdown-content{
-display: block
-} 
-
-.up_toggle{
-display: none;
+.ms_dropdown-menu{
+    left: 0;
+    top: 70px;
+    border: none;
+    border-radius: 0px;
 }
 
-.ms-dropdown:hover .up_toggle{
-display: inline-block;
+.dropdown-menu{
+    width: 100%;
 }
 
-.ms-dropdown:hover .down_toggle{
-display: none;
-}
 
 /* Fine Stile Nav */
 
